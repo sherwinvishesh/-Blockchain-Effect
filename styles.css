@@ -1,0 +1,48 @@
+/* General styles for the body and html elements, setting up margin, padding, full viewport height and width, and default font */
+   body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Body specific styles for background color, text color, and centering content using Flexbox */
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+}
+
+/* Flex container for centering content, set to cover the entire viewport and positioned behind other content */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Styles for the centered text, including font size and color */
+.centered-text {
+    font-size: 24px;
+    color: white;
+}
+
+/* Styles for the particles.js container, that contains the javascript file */
+#particles-js {
+    position: fixed; /* Sets the position of the element to fixed, meaning it's positioned relative to the viewport and doesn't move when scrolled */
+    top: 0;          /* Positions the top edge of the element at the top of the viewport */
+    left: 0;         /* Positions the left edge of the element at the left side of the viewport */
+    width: 100%;     /* Sets the width of the element to be 100% of the viewport width */
+    height: 100%;    /* Sets the height of the element to be 100% of the viewport height */
+    z-index: 0;      /* Sets the stack order of the element; a value of 0 places it at the default level in the stacking context */
+}
