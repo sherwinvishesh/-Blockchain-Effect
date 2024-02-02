@@ -15,7 +15,7 @@ Blockchain Effect is a dynamic and interactive web effect, inspired by the aesth
 To implement the Blockchain Effect in your project, follow these steps:
 1. Clone this repository.
   ```bash
-  git clone https://github.com/sherwinvishesh/Blockchain-Effect
+  git clone https://github.com/sherwinvishesh/Blockchain-Effect.git
   cd Blockchain-Effect
   ```
 2. Include `bescript.js` in your project.
