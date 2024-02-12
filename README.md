@@ -20,7 +20,7 @@ To implement the Blockchain Effect in your project, follow these steps:
   ```
 2. Include `bescript.js` in your project.
 3. Add `<div id="particles-js">` to the div where yo add this effect
-4. Remember to add `<script src="./bescript.js"></script>` before `</body>` in HTML
+4. Remember to add `<script src="./blockchain-effect.js"></script>` before `</body>` in HTML
 5. Also, remember to add this to your CSS
   ```css
   #particles-js {
@@ -34,7 +34,7 @@ To implement the Blockchain Effect in your project, follow these steps:
   ```
 
 ## Example
-To include the Blockchain Effect in your website, simply integrate the `bescript.js` into your HTML structure. Below is an example of how it can be done:
+To include the Blockchain Effect in your website, simply integrate the `blockchain-effect.js` into your HTML structure. Below is an example of how it can be done:
 
 ```html
 <!DOCTYPE html>
@@ -48,7 +48,7 @@ To include the Blockchain Effect in your website, simply integrate the `bescript
     <!-- Your HTML content -->
 
     <!-- Blockchain Effect Script -->
-    <script src="path/to/bescript.js"></script>
+    <script src="path/to/blockchain-effect.js"></script>
     </div>
 </body>
 </html>
