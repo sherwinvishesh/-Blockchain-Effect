@@ -18,7 +18,7 @@ To implement the Blockchain Effect in your project, follow these steps:
   git clone https://github.com/sherwinvishesh/Blockchain-Effect.git
   cd Blockchain-Effect
   ```
-2. Include `bescript.js` in your project.
+2. Include `blockchain-effect.js` in your project.
 3. Add `<div id="particles-js">` to the div where yo add this effect
 4. Remember to add `<script src="./blockchain-effect.js"></script>` before `</body>` in HTML
 5. Also, remember to add this to your CSS
@@ -76,7 +76,7 @@ This project is licensed under [MIT](LICENSE)
 
 
 
-## Connect with Me
+## Connect Me
 
 Feel free to reach out and connect with me on [LinkedIn](https://www.linkedin.com/in/sherwinvishesh) or [Instagram](https://www.instagram.com/sherwinvishesh/).
 
